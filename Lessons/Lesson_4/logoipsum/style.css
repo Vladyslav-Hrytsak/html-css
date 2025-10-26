@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+.w-1070{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*--------HEADER----------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav ul a{
+    height: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #696871;
+    letter-spacing: -0.47px;
+}
+
+.active-link{
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+}
+
+.header__button{
+    width: 211.02px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: -0.53px;
+    font-weight: 700;
+
+}
+
+/*--------SECTION----------*/
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+
+
+
+.hero h1{
+    width: 439.41px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    color: #19191B;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -2.5px;
+}
+
+.hero p{
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    color: #696871;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    width: 409.43px;
+    font-weight: 700;
+    margin: 50px 0 ;
+}
+
+.hero__button{
+    width: 188.21px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: -0.53px;
+    text-align: center;
+}
+
+.hero img{
+    width: 545.51px;
+    height: 644px;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 212px 0 160px 0;
+}
