@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: #000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .square {
+            width: 80px;
+            height: 80px;
+            background: #6b5b95;
+        }
+
+        .bounce {
+            background: #feb236;
+            border-radius: 8px;
+            animation: bounce 1.2s ease-in-out infinite;
+        }
+
+        .spin {
+            background: #d64161;
+            animation: spin 2s linear infinite;
+        }
+
+        .float {
+            border-radius: 10px;
+            animation: float 2.5s ease-in-out infinite;
+        }
+
+        .orbit {
+            position: relative;
+            background: #86af49;
+            animation: orbit 3s linear infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-30px);
+            }
+        }
+
+
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-60px) scale(1.05);
+            }
+        }
+
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        @keyframes orbit {
+            0% {
+                transform: rotate(0deg) translateX(80px) rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg) translateX(80px) rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="square float"></div>
+<div class="square bounce"></div>
+<div class="square spin"></div>
+<div class="square orbit"></div>
+
+</body>
+</html>

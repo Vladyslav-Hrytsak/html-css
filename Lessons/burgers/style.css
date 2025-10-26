@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: #1E1E1E;
+}
+
+.w-1340{
+    width: 1340px;
+    margin: 0 auto;
+}
+
+nav{
+    margin-top: 36px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 59px;
+}
+
+ul a{
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    color: #E9E3DC;
+    line-height: 17.44px;
+}
+
+.nav__active-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 60px;
+    background: #B3A0CD;
+    color: #1E1E1E;
+}
+
+/*----------------------*/
+
+.header-title{
+    margin: 74px auto 33px auto;
+    width: 1255px;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 107.09px;
+    font-weight: 400;
+    color: #E9E3DC;
+    line-height: 95.2px;
+    letter-spacing: -2.14px;
+    text-align: center;
+}
+
+.header-img{
+    display: block;
+    margin: 0 auto;
+}
